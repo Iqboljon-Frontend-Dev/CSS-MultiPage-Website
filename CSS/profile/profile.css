@@ -1,0 +1,95 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-main{
+    background-color: var(--purple-800);
+    padding: 10% 12%;
+    gap: 2em;
+    position: relative;
+    font-size: 1.12vw;
+}
+@media (min-width:1440px) {
+    .about-main{
+        font-size: 1rem;
+    }
+}
+.about-main-img{
+    height: 300px;
+    width: 250px;
+    flex-shrink: 0;
+}
+.about-main-info{
+    gap: 1.4em;
+}
+.about-main-info h1{
+    font-size: var(--heading-1);
+    line-height: 1.4em;
+}
+.about-main-info p{
+    font-size: var(--heading-6);
+    letter-spacing: 1px;
+    color: var(--black-700);
+    line-height: 1.66em;
+    width: 86%;
+}
+.about-main-social-links{
+    gap: 1em;
+}
+.about-main::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 12%;
+    right: 36%;
+    height: 1.66em;
+    background-color: var(--yellow);
+}
+.about-main::before{
+    content: '';
+    position: absolute;
+    right: 12%;
+    left: 64%;
+    bottom: 0;
+    height: 1.66em;
+    background-color: var(--purple-900);
+}
+
+/* Posts start */
+.posts{
+    display: grid;
+    gap: 4.4em;
+    padding: 10% 5% 4% 12%;
+}
+.posts-info h1{
+    font-size: var(--heading-1);
+    color: var(--black-900);
+}
+.posts-container{
+    gap: 2.4em;
+}
+.post{
+    gap: 4%;
+}
+.post-info{
+    display: grid;
+    gap: 1.2em;
+    width: 620px;
+}
+.post-info p:first-child{
+    letter-spacing: .8px;
+    color: var(--purple-900);
+    font-weight: 550;
+}
+.post-info h2{
+    font-size: var(--heading-2);
+    line-height: 1.4em;
+    color: var(--black-900);
+}
+.post-info p:last-child{
+    color: var(--black-700);
+    line-height: 1.66em;
+    letter-spacing: .66px;
+}
+/* Posts end */

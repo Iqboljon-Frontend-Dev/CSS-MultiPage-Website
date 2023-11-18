@@ -1,0 +1,105 @@
+@media (max-width: 1000px) {
+  .about-main {
+    font-size: 13px;
+    padding: 10% 8%;
+  }
+  .about-main::after {
+    left: 8%;
+  }
+  .about-main::before {
+    right: 8%;
+  }
+  .posts{
+    font-size: 1.48vw;
+    padding: 10% 8%;
+  }
+}
+@media (max-width: 900px) {
+  .about-main {
+    font-size: 1.4vw;
+  }
+  .about-main-img {
+    width: 30%;
+    height: 100%;
+  }
+  .about-main-info {
+    gap: 1em;
+  }
+  .about-main-info h1 {
+    line-height: 1.22em;
+  }
+  .about-main-info p {
+    line-height: 1.44em;
+  }
+}
+@media (max-width:700px) {
+  .posts{
+    padding: 34px 4%;
+    font-size: 11px;
+  }
+  .post-info{
+    width: initial;
+  }
+}
+@media (max-width: 600px) {
+  .about-main {
+    flex-direction: column;
+    text-align: center;
+    font-size: 11px;
+  }
+  .about-main-img {
+    width: 250px;
+  }
+  .about-main-info {
+    align-items: center;
+  }
+  .posts{
+    padding-inline: 14%;
+    font-size: 12px;
+  }
+  .posts-container{
+    gap: 4em;
+  }
+  .post{
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+  }
+}
+@media (max-width:500px) {
+  .posts{
+    padding: 40px 2%;
+  }
+  .post{
+    gap: 1em;
+  }
+  .post-img{
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .about-main {
+    padding: 0 0 8%;
+    font-size: 11px;
+  }
+  .about-main-img {
+    width: 100%;
+  }
+  .about-main-info {
+    padding: 2%;
+  }
+  .about-main-info p {
+    width: 100%;
+  }
+  .about-main::after {
+    left: 0;
+    height: 1em;
+  }
+  .about-main::before {
+    right: 0;
+    height: 1em;
+  }
+  .posts{
+    font-size: 3vw;
+  }
+}

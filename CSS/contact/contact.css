@@ -1,0 +1,88 @@
+.form-container {
+  text-align: center;
+  padding: 8% 4%;
+  gap: 2em;
+}
+.form-info {
+  gap: 1em;
+  text-align: center;
+}
+.form-info p:first-child {
+  color: var(--black-900);
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+.form-info h2 {
+  font-size: var(--heading-1);
+}
+.form-info p:last-child {
+  color: var(--black-700);
+  line-height: 1.66em;
+  width: 760px;
+  letter-spacing: 0.6px;
+}
+
+.form-content {
+  background-color: var(--purple-900);
+  width: 760px;
+  padding: 40px 58px;
+  color: white;
+  text-align: left;
+  gap: 6%;
+}
+.form-content hr {
+  border-color: rgba(255, 255, 255, 0.24);
+}
+.form-content > div {
+  width: 50%;
+  align-self: stretch;
+  gap: 1em;
+}
+.form-content-info p {
+  padding: 6% 0;
+  color: rgba(255, 255, 255, 0.44);
+}
+.form-content-about {
+  padding: 6% 0;
+  display: grid;
+  gap: 0.8em;
+}
+#monospase-text {
+  font-family: monospace;
+  font-size: var(--heading-5);
+}
+.form-content-about h2 {
+  font-size: var(--heading-6);
+  letter-spacing: 1px;
+}
+.form-content-about p {
+  color: rgba(255, 255, 255, 0.44);
+}
+
+form{
+    width: 760px;
+    gap: 1em;
+}
+form > *{
+    width: 100%;
+    padding: 3.2%;
+    font-size: 1.2em;
+}
+form > *::placeholder{
+    color: var(--black-800);
+}
+form > select{
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+form > textarea{
+    resize: vertical;
+    height: 180px;
+}
+.form-btn{
+    padding: 2% 4%;
+    width: initial;
+    height: initial;
+}
